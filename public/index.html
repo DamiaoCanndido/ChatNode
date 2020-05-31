@@ -14,19 +14,14 @@
 
     <div class="page" id="chatPage">
         <div class="chatArea">
-            <ul class="chatList">
-                <li class="m-status">Fulano entrou</li>
-                <li class="m-status">Fulano saiu</li>
-                <li class="m-txt"><span class="me">Damiao</span> Opa, tudo bem!</li>
-            </ul>
-            <ul class="userList">
-                <li>Fulano (você)</li>
-                <li>Cicrano</li>
-            </ul>
+            <ul class="chatList"></ul>
+            <ul class="userList"></ul>
         </div>
         <div class="chatInput">
             <input type="text" id="chatTextInput" placeholder="Digite uma mensagem e aperte ENTER">
         </div>
     </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
 </body>
 </html>
